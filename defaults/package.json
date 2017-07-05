@@ -1,0 +1,28 @@
+{
+  "name": "atraceproject",
+  "version": "1.0.0",
+  "description": "An Atrace Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atraceproject/atrace.git"
+  },
+  "keywords": [
+    "atrace",
+    "test",
+    "app",
+    "application"
+  ],
+  "author": "Atrace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atrace/atrace/issues"
+  },
+  "homepage": "https://github.com/atrace/atrace#readme",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
