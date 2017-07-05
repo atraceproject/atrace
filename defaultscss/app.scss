@@ -1,0 +1,18 @@
+$default-font-size: 12pt;
+$main-text-color: #000;
+$body-font: Raleway, arial, sans-serif;
+$paragraph-color: #ccc;
+
+@function text_color() {
+  @return $main-text-color;
+}
+
+body {
+  font-size: $default-font-size;
+  font-family: $body-font;
+  color: text_color();
+
+  p {
+    color: $paragraph-color;
+  }
+}
